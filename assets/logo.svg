@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 110" role="img" aria-label="The Oak Cafe">
+  <defs>
+    <linearGradient id="oakGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c98a3e"/>
+      <stop offset="1" stop-color="#8a5a22"/>
+    </linearGradient>
+  </defs>
+  <!-- oak leaf motif -->
+  <g transform="translate(170 6)" fill="url(#oakGold)">
+    <path d="M0 38 C0 38 -2 26 -10 22 C-4 22 -2 24 0 27 C0 22 -6 14 -14 12 C-7 12 -3 15 0 19 C0 13 -5 5 -12 2 C-4 3 -1 8 0 13 C1 8 4 3 12 2 C5 5 0 13 0 19 C3 15 7 12 14 12 C6 14 0 22 0 27 C2 24 4 22 10 22 C2 26 0 38 0 38 Z"/>
+    <rect x="-1.1" y="34" width="2.2" height="8" rx="1"/>
+  </g>
+  <text x="170" y="78" text-anchor="middle" font-family="'Fraunces', Georgia, serif" font-weight="600" font-size="34" letter-spacing="1" fill="#2b1d12">The <tspan fill="#8a5a22" font-style="italic">Oak</tspan> Cafe</text>
+  <text x="170" y="98" text-anchor="middle" font-family="'Jost','Helvetica Neue',sans-serif" font-weight="500" font-size="9.5" letter-spacing="6" fill="#a07a4c">SPECIALTY COFFEE · AMMAN</text>
+</svg>
