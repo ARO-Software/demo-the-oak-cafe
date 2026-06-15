@@ -1,15 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 110" role="img" aria-label="The Oak Cafe">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 116" role="img" aria-label="The Oak Cafe — Specialty Coffee, Amman">
   <defs>
     <linearGradient id="oakGold" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#c98a3e"/>
-      <stop offset="1" stop-color="#8a5a22"/>
+      <stop offset="0" stop-color="#d59a4c"/>
+      <stop offset=".55" stop-color="#a8702c"/>
+      <stop offset="1" stop-color="#6b4317"/>
     </linearGradient>
   </defs>
-  <!-- oak leaf motif -->
-  <g transform="translate(170 6)" fill="url(#oakGold)">
-    <path d="M0 38 C0 38 -2 26 -10 22 C-4 22 -2 24 0 27 C0 22 -6 14 -14 12 C-7 12 -3 15 0 19 C0 13 -5 5 -12 2 C-4 3 -1 8 0 13 C1 8 4 3 12 2 C5 5 0 13 0 19 C3 15 7 12 14 12 C6 14 0 22 0 27 C2 24 4 22 10 22 C2 26 0 38 0 38 Z"/>
-    <rect x="-1.1" y="34" width="2.2" height="8" rx="1"/>
+  <!-- oak leaf motif with central vein -->
+  <g transform="translate(180 5)">
+    <path fill="url(#oakGold)" d="M0 40 C0 40 -2 27 -10 23 C-4 23 -2 25 0 28 C0 23 -6 15 -14 13 C-7 13 -3 16 0 20 C0 14 -5 6 -12 3 C-4 4 -1 9 0 14 C1 9 4 4 12 3 C5 6 0 14 0 20 C3 16 7 13 14 13 C6 15 0 23 0 28 C2 25 4 23 10 23 C2 27 0 40 0 40 Z"/>
+    <rect x="-1" y="36" width="2" height="9" rx="1" fill="url(#oakGold)"/>
+    <path d="M0 12 L0 40" stroke="#fbf7ef" stroke-width=".6" opacity=".55" fill="none"/>
   </g>
-  <text x="170" y="78" text-anchor="middle" font-family="'Fraunces', Georgia, serif" font-weight="600" font-size="34" letter-spacing="1" fill="#2b1d12">The <tspan fill="#8a5a22" font-style="italic">Oak</tspan> Cafe</text>
-  <text x="170" y="98" text-anchor="middle" font-family="'Jost','Helvetica Neue',sans-serif" font-weight="500" font-size="9.5" letter-spacing="6" fill="#a07a4c">SPECIALTY COFFEE · AMMAN</text>
+  <text x="180" y="82" text-anchor="middle" font-family="'Fraunces', Georgia, serif" font-weight="600" font-size="35" letter-spacing="1" fill="#2b1d12">The <tspan fill="#8a5a22" font-style="italic">Oak</tspan> Cafe</text>
+  <line x1="86" y1="98" x2="138" y2="98" stroke="#c2a274" stroke-width="1"/>
+  <text x="180" y="102" text-anchor="middle" font-family="'Jost','Helvetica Neue',sans-serif" font-weight="500" font-size="9.5" letter-spacing="6" fill="#a07a4c">SPECIALTY COFFEE · AMMAN</text>
+  <line x1="222" y1="98" x2="274" y2="98" stroke="#c2a274" stroke-width="1"/>
 </svg>
